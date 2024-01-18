@@ -22,17 +22,18 @@ body {
     background-color: aquamarine;
 }
 header{
-    width: 100%;
+    width: 95%;
     height:300px;
     background-color: #f07828;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 header img{
-    width: 250px;
-    height:250px;
+    width: max(150px , 8vw);
+    height: max(150px , 7vw );
     margin-right: 5%;
     border-radius: 15%;
     align-items: center;
@@ -51,9 +52,7 @@ header .top{
     
 }
 .top h1{
-    width: 100%;
-    height:auto;
-    font-size: 4rem;
+    font-size: max(60px , 6vw );
     margin-right: 5%;
     margin: 3%;
     color: red;
@@ -62,25 +61,13 @@ header .top{
 }
 
 .top h2{
-    width: 100%;
-    height:auto;
-    font-size: 1.5rem ;
+    font-size: max( 20px , 2.5vw);
     margin-right: 6%;
     margin: 3%;
     font-style: italic;
     color: rgb(26, 24, 24);
 }
 
-@media screen and (max-width: 720px) {
-.top h1 {font-size: 3rem ;
- } 
-
-.top h2{   
-    font-size: 1rem;   
-    
-}
-    
-}
 .content{
     max-width:1000px;
     min-width: 300px;
@@ -109,7 +96,7 @@ section .filter-card{
 
 
 section .card-wrapper{
-    max-width: 1000px;
+    max-width: 1500px;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
@@ -117,7 +104,7 @@ section .card-wrapper{
     padding-top: 50px;
 }
 section .card-item{
-    height: 400px;
+    height: 380px;
     background: var(--gray);
     border-radius: 8px;
     display: flex;
@@ -127,7 +114,7 @@ section .card-item{
     justify-content: center;
 }
 .card-content{
-    height: 40%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,20 +127,7 @@ section .card-item{
 }
 
 
-.card-item button {
-    width: 90%;
-    padding: 15px 0px;
-    border: none;
-    background: rgb(74, 2, 141);;
-    border-radius: 4px;
-    color: var(--white);
-    font-weight: bold;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: 0.3s ease;
-    margin-bottom: 10px;
-    
-}
+
 .card-item button:hover{
     background:var(--gray);
     color:rgb(74, 2, 141);
