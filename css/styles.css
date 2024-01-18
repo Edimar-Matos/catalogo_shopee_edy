@@ -68,6 +68,15 @@ header .top{
     color: rgb(26, 24, 24);
 }
 
+h3{
+    font-size: max(15px , 1.8vw );
+   
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -30px;
+    padding-bottom: 0;
+}
+
 @media(max-width: 768px){
     .top h1{
         font-size: max(30px , 6vw );
