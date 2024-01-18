@@ -52,7 +52,7 @@ header .top{
     
 }
 .top h1{
-    font-size: max(60px , 6vw );
+    font-size: max(30px , 6vw );
     margin-right: 5%;
     margin: 3%;
     color: red;
@@ -61,7 +61,7 @@ header .top{
 }
 
 .top h2{
-    font-size: max( 20px , 2.5vw);
+    font-size: max( 10px , 2.5vw);
     margin-right: 6%;
     margin: 3%;
     font-style: italic;
